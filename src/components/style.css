@@ -209,27 +209,35 @@ input{
 }
 /* Mobile responsiveness styling */
 /* Dashboard */
-@media (max-width:1000px){
+@media (max-width:900px){
 #signup--btn, #login--btn{
-width: 10vw;
+width: 15vw;
+height: 4vh;
 font-size: 10px;
+}
+.signup--login{
+    gap: 1em;
 }
 .image-sitting{
     width: 50%;
 }
 .main--text{
-    line-height: 3;
+    line-height: 4;
 }
 .main--text > h1{
-    font-size: 1.5em;
+    font-size: 5vw;
 }
 .main--text > p{
-    font-size: 1rem;
+    font-size: 3.5vw;
 }
 .logo{
-    width: 20%;
+    width: 40%;
 }
 .logo--name{
-    font-size: 0.88em;
+    font-size: 2.5vw;
+    
+}
+.yard--icon{
+    visibility: hidden;
 }
 }
